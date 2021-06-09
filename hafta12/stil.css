@@ -1,0 +1,67 @@
+body{
+  font-family: "Open Sans";
+}
+
+.btn_il {
+    
+    background-color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: white !important;
+    border-radius: 8px;
+
+}
+
+/* Orange */
+.warning {
+    background: #FC7208;
+    color: white;
+
+  }
+  
+.warning:hover {
+    border: 2px solid #FC7208 ;
+    background: transparent;
+    color: #FC7208 !important;
+  }
+
+.txtmini{
+  margin-top: 50px !important;
+  font-size: 14px;
+}
+
+.txtim{
+  color:  #b20202;
+  font-size: 14px;
+  text-align: center;
+}
+
+.boldercol:after {
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 105px;
+  background-color: #e5e5e5;
+  content: "";
+  top: 0;
+  right: 0;
+}
+
+.txtaltmini{
+  font-size: 10px;
+}
+
+.altcol{
+  background-color: #f8f8f8;
+}
+
+.imgcol {
+  position: relative;
+  width: 54px;
+  height: 35px;
+  margin: 35px 0 0 20px;
+  border-right: 1px solid #e5e5e5;
+  display: inline-block;
+}
